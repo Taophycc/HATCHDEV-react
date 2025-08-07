@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
-function App() {
+function SocialLinks() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <div className="card">
+        <img src="avatar-jessica.jpeg" />
+        <h2>Jessica Randall</h2>
+        <h4>London, United Kingdom</h4>
+        <p>"Front-end developer and avid reader"</p>
+
+        <div className="btns">
+          <a href="#">Github</a>
+          <a href="#">Frontend Mentor</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </main>
   );
 }
 
-export default App;
+export default SocialLinks;
