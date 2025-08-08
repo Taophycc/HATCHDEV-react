@@ -14,7 +14,9 @@ function SocialLinks() {
 
         <div className="btns">
           <a href="https://github.com/Taophycc">Github</a>
-          <a href="https://www.frontendmentor.io/taophycc">Frontend Mentor</a>
+          <a href="https://www.frontendmentor.io/profile/Taophycc">
+            Frontend Mentor
+          </a>
           <a href="https://www.linkedin.com/in/taofeek-kassim/">LinkedIn</a>
           <a href="https://twitter.com/taophyc_">Twitter</a>
           <a href="https://www.instagram.com">Instagram</a>
